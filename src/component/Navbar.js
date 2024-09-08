@@ -21,9 +21,11 @@ const Navbar = () => {
             Earth Image
           </p>
         </Link>
-        <p className="font-bold text-white border-b-2 border-transparent hover:border-b-2 hover:border-white px-4 py-[2px] cursor-pointer">
-          APOD Images
-        </p>
+        <Link to="/mars">
+          <p className="font-bold text-white border-b-2 border-transparent hover:border-b-2 hover:border-white px-4 py-[2px] cursor-pointer">
+            Mars Rover Photos
+          </p>
+        </Link>
       </div>
     </div>
   );

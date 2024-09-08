@@ -10,7 +10,7 @@ const Single = () => {
   useEffect(() => {
     if (data) {
       let mine = data.filter((el) => el.date === date);
-      console.log(mine[0]);
+
       setCurr(mine[0]);
     }
   }, []);
